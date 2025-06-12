@@ -87,11 +87,6 @@ This project simulates a basic IoT prototype to monitor and control temperature 
 3. Search and install:
    - `DHT sensor library`
    - `LiquidCrystal_I2C`
-Once installed, add to your code:
-```cpp
-#include <DHT.h>
-#include <LiquidCrystal_I2C.h>
----
 ## 💡 Functional Logic
 
 - If **Temperature > 28°C**, the **fan (Relay + LED1)** is turned ON.
